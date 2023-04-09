@@ -1,5 +1,5 @@
 var http  = require("http");
-var dt = require("./date");
+var dt = require("./js_work/date");
 var url = require('url');
 var fs = require("fs");
 var uc = require('upper-case');
@@ -114,8 +114,8 @@ var uc = require('upper-case');
 
 
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.write(uc.upperCase("Hello World!"));
-  res.end();
-}).listen(8080);
+// http.createServer(function (req, res) {
+//   res.writeHead(200, {'Content-Type': 'text/html'});
+//   res.write(uc.upperCase("Hello World!"));
+//   res.end();
+// }).listen(8080);
