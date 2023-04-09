@@ -1,0 +1,20 @@
+
+nodeTest.js => HTTP builtin => Modules
+-> in node.js http builtin modules helps transfer 
+   data over Hyper Text Transfer protocal(HTTP).
+
+   syntax => var http = require('http');
+
+
+    HTTP Header
+    -> if the response from HTTP server is diplayed to be HTMl
+      then we must include HTTP header with correct content type.
+
+    syntax => res.writeHead(200, {'Content-Type': 'text/html'});
+
+    
+    Create Files
+    => .appendFiles()
+    => .open()
+    => .writeFile()
+
